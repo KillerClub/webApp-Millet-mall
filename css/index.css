@@ -1,0 +1,309 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.tc {
+  text-align: center;
+}
+.underline:after {
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: #f40;
+  bottom: 0px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.vc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+body {
+  background: #fff;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+em,
+i {
+  font-style: normal;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/1.2 "微软雅黑", "SimSun", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+header {
+  height: 0.66rem !important;
+}
+header input[type=text] {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+  background: #fff;
+}
+.mui-bar-nav {
+  margin-bottom: 0.05rem;
+  background: #e4d6c6;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mui-bar-nav div {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  flex: 1 1 auto;
+}
+.mui-bar-nav input[type=text] {
+  height: 0.6rem;
+}
+.mui-bar-nav .iconfont {
+  font-size: 0.42rem;
+  color: #fff;
+}
+.usernav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 1.6rem;
+  text-align: center;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.usernav span {
+  font-size: 0.2rem;
+  color: #969696;
+}
+.usernav .mui-icon {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 50%;
+  background: #e02038;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.1rem;
+  line-height: 0.64rem;
+  color: #fff;
+  font-size: 0.3rem;
+}
+.mui-content {
+  padding-bottom: 1rem;
+}
+.morning {
+  display: flex;
+  align-items: center;
+  height: 0.82rem;
+  background: #fff;
+  padding-left: 0.2rem;
+}
+.morning .title {
+  font-size: 0.3rem;
+  color: #eb6332;
+  font-weight: 700;
+  padding-right: 0.2rem;
+  border-right: 1px solid #ADADAD;
+  height: 0.45rem;
+  line-height: 0.45rem;
+}
+.morning .content {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  flex: 1 1 auto;
+  transition: all .5s;
+  position: relative;
+}
+.morning .content a {
+  color: #000;
+  font-size: 0.26rem;
+}
+.morning .content .item {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.shoplist1 {
+  padding-top: 0.1rem;
+}
+.shoplist1 .mui-row img {
+  width: 100%;
+}
+.shoplist1 .list1 {
+  padding-right: 2px;
+  margin-top: 0.03rem;
+}
+.shoplist1 .list2 img {
+  display: inline-block;
+}
+.shoplist1 .call {
+  width: 100%;
+  padding-top: 0.05rem;
+}
+.section {
+  background: #fff;
+}
+.section .item {
+  padding-bottom: 0.1rem;
+}
+.section .item img {
+  width: 100%;
+}
+.section .item-list img {
+  width: 100%;
+}
+.section .mui-col-sm-6:nth-of-type(2n+1) {
+  padding-right: 1px;
+}
+.section .mui-col-sm-6:nth-of-type(2n+2) {
+  padding-left: 1px;
+}
+.section .good-info {
+  padding-left: 0.25rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.05rem;
+}
+.section .good-info h4 {
+  color: #333;
+  font-size: 0.3rem;
+  font-weight: 700;
+}
+.section .good-info p {
+  color: #ddd;
+  font-size: 0.26rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+}
+.section .good-info span {
+  color: #f60;
+  font-size: 0.26rem;
+}
+.section .good-info span i {
+  position: relative;
+  top: -0.03rem;
+  font-size: 0.12rem;
+}
+.section .good-info span em {
+  font-size: 0.12rem;
+  position: relative;
+  top: 0.03rem;
+}
+.box {
+  height: 5rem;
+}

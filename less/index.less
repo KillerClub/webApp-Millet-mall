@@ -1,0 +1,83 @@
+//小米主页样式
+@import "xiaomi.less";
+body{background:#fff;}
+.mui-bar-nav{
+    .mb(5);
+    background: #e4d6c6;
+    .pl(20);.pr(20);
+    .flex_b();
+    div{.pl(30);.pr(30);flex:1 1 auto;}
+    input[type=text]{
+        .h(60);
+    }
+    .iconfont {.fs(42);color:#fff;}
+}
+
+.usernav{
+    .flex_a();.h(160);.tc();
+    background:#fff;border-bottom:1px solid #ddd;
+    span{.fs(20);color:#969696;}
+    .mui-icon{
+        display:block;
+        .w(64);.h(64);
+        border-radius:50%;
+        background:#e02038;
+        .bc();.mb(10);.lh(64);
+        color:#fff;.fs(30);
+    }
+}
+
+.mui-content{.pb(100);}
+
+.morning{
+    display: flex;align-items: center;
+    .h(82);background:#fff;.pl(20);
+    .title{
+        .fs(30);color:#eb6332;font-weight: 700;
+        .pr(20);border-right:1px solid #ADADAD;
+        .h(45);.lh(45);
+    }
+    .content{
+        .pl(20);.pr(20);flex:1 1 auto;transition:all .5s;
+        position: relative;
+        a{color:#000;.fs(26);}
+        .item{position:absolute;top:50%;.vc();}   
+        
+    }
+}
+
+.shoplist1{
+    .pt(10);
+    .mui-row{
+        img{width:100%;}
+    }
+    .list1{padding-right:2px;.mt(3)}
+    .list2{
+        img{display:inline-block;}
+    }
+    .call{width:100%;.pt(5);}
+}
+
+.section{
+    background:#fff;
+    .item{img{width:100%;}.pb(10);}
+    .item-list{img{width:100%;}}
+    .mui-col-sm-6:nth-of-type(2n+1){
+        padding-right:1px;
+    }
+    .mui-col-sm-6:nth-of-type(2n+2){
+        padding-left:1px;
+    }
+    .good-info{
+        .pl(25);.pt(20);.pb(5);
+        h4{color:#333;.fs(30);font-weight: 700;}
+        p{color:#ddd;.fs(26);.pt(10);.pb(20);}
+        span{
+            color:#f60;.fs(26);
+            i{position: relative;.t(-3);.fs(12);}
+            em{.fs(12);position: relative;.t(3);}
+        }
+    }
+}
+
+.box{.h(500)}

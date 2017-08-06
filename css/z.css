@@ -1,0 +1,37 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.tc {
+  text-align: center;
+}
+.underline:after {
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: #f40;
+  bottom: 0px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.vc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,60 @@
+//分类页面
+@import "xiaomi.less";
+
+.mui-bar-nav{
+    background: #f37d0f;
+    .pr(20);
+    .flex_b();
+    div{.pl(40);.pr(30);flex:1 1 auto;}
+    input[type=text]{
+        .h(60);
+    }
+    .iconfont {.fs(42);color:#fff;}
+}
+
+.mui-content{
+    position: absolute;
+    left: 0;right:0;.t(75);bottom:50px;
+    padding:0 !important;
+    display:flex;background:#fff;
+    .leftnav{
+        .w(157);.pt(40);
+        flex:0 0 auto;
+        border-right:1px solid #d7d7d7;
+        a{color:#666;.fs(24);.lh(80);display: block;.tc();transition: transform .5s;}
+        a.active{ 
+            transform: scale3d(1.2,1.2,1);
+            color: #fb7d34;
+        }
+    }
+    .rightnav{
+        overflow-y: auto;
+        flex:1 1 auto;
+        .pl(34);.pr(34);
+        .big-icon{img{width:100%;}.mb(50);}
+        .title{
+           .fs(28);color:#313131;
+           .tc();
+           span{
+               position: relative;
+               &:after,&:before{
+                   content:"";
+                    position: absolute;
+                    height: 1px;
+                    .w(50);
+                    background-color: #000;
+                    .vc();
+               }
+               &:after{.l(-60)}
+               &:before{.r(-60);}
+            }
+            
+        }
+        .mui-row{
+            .mt(40);.info{.fs(26);color:#707070;.tc();.pt(40);.pb(50);}
+            img{width:100%;}
+        }
+    }
+    
+}
+
